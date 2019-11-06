@@ -1,5 +1,5 @@
-# ntplib_cron
-Running a Python script ntplib.py time update from cron
+# ntplib_cron2.7
+Running a Python 2.7 script ntplib.py time update from cron
 
 1) Requires elevated privileges in crontab for sudo
 2) Requires ntplib
