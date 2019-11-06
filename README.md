@@ -14,4 +14,4 @@ Simply add correctsystemtime.py file to any directory and add a cron task to fet
 > */20 * * * * /usr/bin/python /home/pi/correctsystemtime.py >> /tmp/logclock1.log 2>&1
 
 # On reboot (if you want) #
-> # @reboot sudo /usr/bin/python /home/pi/correctsystemtime.py >> /tmp/logclockstartup.log 2>&1
+> @reboot sudo /usr/bin/python /home/pi/correctsystemtime.py >> /tmp/logclockstartup.log 2>&1
