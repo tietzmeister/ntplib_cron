@@ -4,7 +4,7 @@ import time
 import os
 import sys
 
-# Append a system path to module for ntplib #
+# Append a system path to module for ntplib -- Cron does not have permissions without this #
 sys.path.append("/usr/local/lib/python2.7/dist-packages/")
 
 try:
